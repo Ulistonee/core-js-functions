@@ -19,6 +19,8 @@ describe('functions-tasks', () => {
       }
       const str = hiHello.toString();
       let result = tasks.getFunctionBody(hiHello);
+      // console.log(result);
+      // console.log('str', str);
       assert.equal(result, str);
       result = tasks.getFunctionBody();
       assert.equal(result, '');
